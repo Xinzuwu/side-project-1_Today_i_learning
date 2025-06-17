@@ -165,15 +165,22 @@ function NewFactForm({ setFacts, setshowFrom }) {
       setIsUploading(false);
 
       // 4. 將新的事實新增到使用者介面：將事實新增到state
-      if (!error) setFacts((facts) => [newFact[0], ...facts]);
+      if (!error) {
+        setFacts((facts) => [newFact[0], ...facts]);
 
-      // 5. 重設輸入欄位
-      setText("");
-      setSource("");
-      setCategory("");
+        // 5. 重設輸入欄位
+        setText("");
+        setSource("");
+        setCategory("");
 
-      // 6. 關閉表單
-      setshowFrom(false);
+        // 6. 關閉表單
+        setshowFrom(false);
+      } else {
+        // Supabase 發生錯誤時，在這裡顯示 alert
+        alert("Invalid fact or URL entered (Supabase error)"); // 或者更具體的錯誤訊息
+      }
+    } else {
+      alert("Invalid Fact or URL or Category entered");
     }
   }
 
