@@ -1,9 +1,11 @@
+/* 全域樣式重設，消除預設邊距與內距，統一盒模型 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* 設定 body 背景色、字體顏色與字型，並加上內距 */
 body {
   background-color: #292524;
   color: #fafaf9;
@@ -11,16 +13,19 @@ body {
   padding: 48px 64px 0px;
 }
 
+/* 隱藏元素用的 class */
 .hidden {
   display: none !important;
 }
 
+/* 標示爭議內容的樣式 */
 .disputed {
   color: #ef4444;
   font-weight: 600;
   margin-right: 10px;
 }
 
+/* 顯示訊息用的樣式 */
 .message {
   text-align: center;
   text-transform: uppercase;
