@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🚀 TODAY I LEARNING
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**一個讓用戶提交事實並進行真假投票的社群分享平台。** 在這裡，您可以分享有趣的知識、發現新奇的事實，並參與對這些事實的驗證，判斷它們是「真」（True）還是「假」（False）。
 
-## Available Scripts
+## ✨ 主要功能
 
-In the project directory, you can run:
+- **事實提交：** 用戶可以分享任何他們認為有趣或重要的事實，並提供來源。
+- **分類瀏覽：** 事實按不同類別（如科技、健康、歷史、社會等）展示，方便用戶篩選查找。
+- **真假投票：** 每個提交的事實都帶有投票功能，用戶可以選擇判斷該事實為「真」或「假」。
+  - **有趣 (votesInteresting):** 如果您覺得這個事實很有趣。
+  - **令人驚奇 (votesMindblowing):** 如果這個事實讓您感到非常驚訝。
+  - **錯誤 (votesFalse):** 如果您認為這個事實是錯誤的。
+- **動態數據展示：** 實時更新的投票結果和事實列表，提供互動式的瀏覽體驗。
+- **直觀的用戶界面：** 使用 HTML 和 CSS 構建響應式且美觀的介面。
+- **強大的前端框架：** 採用 React 庫構建高效、可維護的單頁應用程式 (SPA)。
+- **雲端數據庫支持：** 利用 Supabase 作為後端，提供可靠的數據存儲和 API 服務。
 
-### `npm start`
+## 🛠️ 技術棧
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **前端:** HTML, CSS, JavaScript, React
+- **後端:** Supabase (用於數據庫和 API)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 線上 Demo
 
-### `npm test`
+您可以直接前往以下網址體驗此應用程式：
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👉 **[https://xinzuwu-side-project-1.netlify.app/](https://xinzuwu-side-project-1.netlify.app/)**
 
-### `npm run build`
+## ⚙️ 本地運行（可選）
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+如果您想在本地環境運行或查看原始碼，請依照以下步驟：
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **克隆倉庫：**
+    ```bash
+    git clone [https://github.com/Xinzuwu/side-project-1_Today_i_learning.git](https://github.com/Xinzuwu/side-project-1_Today_i_learning.git)
+    cd side-project-1_Today_i_learning
+    ```
+2.  **安裝依賴：**
+    ```bash
+    npm install
+    ```
+3.  **配置 Supabase：**
+    - 在 `.env` 文件中設定您的 Supabase 專案 URL 和公鑰。（參考 `.env.example`）
+4.  **啟動應用程式：**
+    ```bash
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📄 許可證
 
-### `npm run eject`
+本專案採用 [MIT 許可證](LICENSE)。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧑‍💻 作者
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Xinzuwu](https://github.com/Xinzuwu)
